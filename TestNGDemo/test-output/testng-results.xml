@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-27T19:56:48 IST" name="Default suite" finished-at="2022-09-27T19:56:48 IST" duration-ms="51">
+  <suite started-at="2022-09-28T09:42:57 IST" name="Suite" finished-at="2022-09-28T09:42:58 IST" duration-ms="87">
     <groups>
     </groups>
-    <test started-at="2022-09-27T19:56:48 IST" name="Default test" finished-at="2022-09-27T19:56:48 IST" duration-ms="51">
-      <class name="loanapplications.HomeLoanApplicationTests">
-        <test-method signature="APIHomeLoan()[pri:0, instance:loanapplications.HomeLoanApplicationTests@2cdd0d4b]" started-at="2022-09-27T19:56:48 IST" name="APIHomeLoan" finished-at="2022-09-27T19:56:48 IST" duration-ms="7" status="PASS">
+    <test started-at="2022-09-28T09:42:57 IST" name="SmokeTests" finished-at="2022-09-28T09:42:58 IST" duration-ms="87">
+      <class name="loanapplications.CarLoanApplicationTests">
+        <test-method signature="CarLoanLoginWeb()[pri:0, instance:loanapplications.CarLoanApplicationTests@2e1d27ba]" started-at="2022-09-28T09:42:58 IST" name="CarLoanLoginWeb" finished-at="2022-09-28T09:42:58 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- APIHomeLoan -->
-        <test-method signature="MobileHomeLoan()[pri:0, instance:loanapplications.HomeLoanApplicationTests@2cdd0d4b]" started-at="2022-09-27T19:56:48 IST" name="MobileHomeLoan" finished-at="2022-09-27T19:56:48 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- CarLoanLoginWeb -->
+        <test-method signature="CarLoanLoginAPI()[pri:0, instance:loanapplications.CarLoanApplicationTests@2e1d27ba]" started-at="2022-09-28T09:42:58 IST" name="CarLoanLoginAPI" finished-at="2022-09-28T09:42:58 IST" depends-on-methods="loanapplications.CarLoanApplicationTests.CarLoanLoginWeb" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileHomeLoan -->
-        <test-method signature="WebHomeLoan()[pri:0, instance:loanapplications.HomeLoanApplicationTests@2cdd0d4b]" started-at="2022-09-27T19:56:48 IST" name="WebHomeLoan" finished-at="2022-09-27T19:56:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebHomeLoan -->
-      </class> <!-- loanapplications.HomeLoanApplicationTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- CarLoanLoginAPI -->
+      </class> <!-- loanapplications.CarLoanApplicationTests -->
+    </test> <!-- SmokeTests -->
+  </suite> <!-- Suite -->
 </testng-results>
