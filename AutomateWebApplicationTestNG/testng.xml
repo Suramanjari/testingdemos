@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="10" name="EcommerceTests">
+		<classes>
+			<class name="ecommerce.RegistrationPage" />
+			<class name="ecommerce.LoginPage" />
+			<class name="ecommerce.SearchProduct" />
+			<class name="ecommerce.AddToCart" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

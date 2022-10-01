@@ -1,12 +1,16 @@
 package loanapplications;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
 
 public class PersonalLoanApplicationTests {
 
-	@Test
-	public void PersonalLoanLoginWeb() {
+	@Parameters({"URL"})
+	@Test()
+	public void PersonalLoanLoginWeb(String url) {
 		System.out.println("Personal loan application - web login test");
+		System.out.println("Web login url= " + url);
 	}
 	
 	@Test
